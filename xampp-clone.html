@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to clone XAMPP page </title>
+    <style>
+        /* reset margin and padding */
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+        /* topbar */
+
+        #topbar {
+            height: 60px;
+            width: 100%;
+            background-color: #2A5D84;
+        }
+
+
+        /* for link element */
+
+        #topbar a {
+            color: white;
+            text-decoration: none;
+        }
+
+
+        /* for "apache friends" position */
+
+        #apache-friends a {
+            position: absolute;
+            top: 20px;
+            font-size: 17px;
+            outline: none;
+            left: 193px;
+        }
+
+
+        /* untuk margin topbar-right */
+
+        #topbar-right {
+            margin-top: 20px;
+            margin-right: 190px;
+            float: right;
+        }
+
+
+        /* untuk membuatnya kotak ketika hover */
+
+        #topbar-right a {
+            position: relative;
+            outline: none;
+            top: -20px;
+            float: left;
+            padding: 22px 16px 22px 16px;
+            font-size: 13px;
+        }
+
+
+        /* for hover color */
+
+        #topbar-right a:hover {
+            background-color: #1F3C52;
+        }
+
+
+        /* title section */
+
+        div#title {
+            position: relative;
+            background-color: #EFEEE5;
+            height: 197px;
+        }
+
+        #title #content {
+            position: absolute;
+            top: 35px;
+            left: 14%;
+            height: 77px;
+            border-top: 2px solid #CCCCCC;
+            border-bottom: 2px solid #CCCCCC;
+            width: 965px;
+        }
+
+        #content img {
+            position: absolute;
+            top: 14px;
+            left: 7px;
+        }
+
+
+        #content p {
+            font-size: 48px;
+            position: absolute;
+            left: 72px;
+            top: -37px;
+        }
+
+        #content p span {
+            font-weight: 700;
+        }
+
+
+        /* article section */
+
+        div#article {
+            margin-top: 32px;
+            margin-left: 190px;
+            width: 967px;
+        }
+
+        div#article h1 {
+            position: relative;
+            top: 10px;
+            font-weight: 300;
+            font-size: 37px;
+        }
+
+
+        div#article p {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+            color: #555555;
+        }
+
+        div#article a {
+            text-decoration: none;
+            color: #5e8949;
+        }
+
+        div#article a:hover {
+            color: #0079a1;
+        }
+
+        div#article h3 {
+            font-size: 27px;
+            font-weight: 300;
+        }
+
+        h3#first-header+p {
+            position: relative;
+            top: -14px;
+        }
+
+        div#article h3#second-header {
+            position: relative;
+            top: -17px;
+        }
+
+
+        h3#second-header+p {
+            position: relative;
+            top: -28px;
+        }
+
+        h3#third-header {
+            position: relative;
+            top: -30px;
+        }
+
+        h3#third-header+p {
+            position: relative;
+            top: -35px;
+        }
+
+        div#article img {
+            position: relative;
+            top: -29px;
+            left: -5px;
+        }
+
+        div#footer {
+            position: relative;
+            height: 53px;
+            width: 100%;
+            background-color: #333333;
+        }
+
+        div#footer #left {
+            position: absolute;
+            left: 190px;
+        }
+
+        div#footer img#sosmed-logo {
+            position: absolute;
+            top: 12px;
+
+        }
+
+        div#footer a {
+            text-decoration: none;
+            color: #888888;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            line-height: 20px;
+            position: relative;
+            top: 15px;
+            left: 100px;
+            margin-left: 16px;
+        }
+
+        div#footer img#fastly-logo {
+            position: absolute;
+            top: 15px;
+            left: 364px;
+        }
+
+        div#footer #right {
+            position: absolute;
+            top: 2px;
+            right: 190px;
+        }
+
+        #right p {
+            line-height: 20px;
+            font-size: 13px;
+            color: #888888;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="topbar">
+
+        <div id="apache-friends">
+            <a href="#">Apache Friends</a>
+        </div>
+
+        <div id="topbar-right">
+
+            <a href="#">Applications</a>
+
+            <a href="#">FAQs</a>
+
+            <a href="#">How To Guides</a>
+
+            <a href="#">PHPInfo</a>
+
+            <a href="#">phpMyAdmin</a>
+
+        </div>
+
+
+    </div>
+
+    <div id="title">
+
+        <div id="content">
+
+            <img src="My Data/xampp-logo.JPG" id="xampp-logo" alt="refresh the page">
+
+            <p id="title"><span>XAMPP</span> Apache + MariaDB + PHP + Perl</p>
+
+        </div>
+
+    </div>
+
+    <div id="article">
+
+        <h1>Welcome to XAMPP for Windows 7.4.20</h1>
+
+        <p>You have successfully installed XAMPP on this system! Now you can start using Apache, MariaDB, PHP and
+            other
+            components. You can find more info in the <a href="">FAQs</a> section or check the <a href="">HOW-TO
+                Guides</a> for getting started with PHP applications.</p>
+
+        <p>XAMPP is meant only for development purposes. It has certain configuration settings that make it easy to
+            develop locally but that are insecure if you want to have your installation accessible to others. If you
+            want have your XAMPP accessible from the internet, make sure you understand the implications and you
+            checked
+            the <a href="">FAQs</a> to learn how to protect your site. Alternatively you can use <a href="">WAMP</a>, <a
+                href="">MAMP</a> or <a href="">LAMP</a> which are similar packages which are
+            more suitable for
+            production.</p>
+
+        <p>Start the XAMPP Control Panel to check the server status.</p>
+
+        <h3 id="first-header">Community</h3>
+
+        <p>XAMPP has been around for more than 10 years – there is a huge community behind it. You can get involved
+            by
+            joining our <a href="">Forums</a>, adding yourself to the <a href="">Mailing List</a>, and liking us on
+            <a href="">Facebook</a>, following our exploits on <a href="">Twitter</a>, or adding us to your <a
+                href="">Google+</a> circles.
+        </p>
+
+        <h3 id="second-header">Contribute to XAMPP translation at <a href="">translate.apachefriends.org.</a></h3>
+
+        <p>
+            Can you help translate XAMPP for other community members? We need your help to translate XAMPP into
+            different languages. We have set up a site, translate.apachefriends.org, where users can contribute
+            translations.</p>
+
+        <h3 id="third-header">Install applications on XAMPP using Bitnami </h3>
+
+        <p>Apache Friends and Bitnami are cooperating to make dozens of open source applications available on XAMPP,
+            for
+            free. Bitnami-packaged applications include Wordpress, Drupal, Joomla! and dozens of others and can be
+            deployed with one-click installers. Visit the <a href="">Bitnami XAMPP page</a> for details on the
+            currently
+            available apps.</p>
+
+        <img src="My Data/logo.JPG" alt="refresh the page">
+
+    </div>
+
+    <div id="footer">
+
+        <div id="left">
+
+            <img src="My Data/footer-logo.JPG" id="sosmed-logo" alt="">
+
+            <a href="">Blog</a>
+
+            <a href="">Privacy Policy</a>
+
+            <a href="">CDN provided by</a>
+
+            <img src="My Data/fastly-logo.JPG" id="fastly-logo" alt="">
+
+        </div>
+
+        <div id="right">
+
+            <p>Copyright (c) 2018, Apache Friends</p>
+
+        </div>
+
+    </div>
+
+    <script>
+
+        document.getElementById('xampp-logo').setAttribute('draggable', false);
+
+    </script>
+
+</body>
+
+</html>
